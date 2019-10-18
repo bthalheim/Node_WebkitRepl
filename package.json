@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nw" : "./node_modules/.bin/nw.cmd"
+    "nw": "./node_modules/.bin/nw.cmd"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,9 @@
   },
   "homepage": "https://github.com/bthalheim/Node_WebkitRepl#readme",
   "dependencies": {
-    "nw": "^0.41.3"
+    "nw": "^0.41.3-sdk"
   },
-
   "window": {
-		"toolbar": true
-	}
-
+    "toolbar": true
+  }
 }
