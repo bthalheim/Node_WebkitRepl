@@ -2,7 +2,7 @@
   "name": "node_webkitrepl",
   "version": "0.0.1",
   "description": "Simple Repl for NW.js",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/bthalheim/Node_WebkitRepl.git"
   },
-  "author": "",
+  "author": "Benjamin Thalheim",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bthalheim/Node_WebkitRepl/issues"
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/bthalheim/Node_WebkitRepl#readme",
   "dependencies": {
     "nw": "^0.41.3"
-  }
+  },
+
+  "window": {
+		"toolbar": true
+	}
+
 }
